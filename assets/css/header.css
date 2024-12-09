@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/assets/icons/header.svg");
+  
+}
+
+.header .photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.header .title {
+  text-align: center;
+  font-family: "Neue Machina";
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.info p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.info p::before {
+  content: '';
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+}
+
+.info .job::before {
+  background-image: url("/assets/icons/ppl.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+.info .location::before {
+  background-image: url("/assets/icons/pin.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+.info .contact::before {
+  background-image: url("/assets/icons/chat.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+.info .mail::before {
+  background-image: url("/assets/icons/mail.svg");
+  width: 1rem;
+  height: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-areas: 
+      "photo title"
+      "photo info";
+  }
+
+  .header .photo {
+    grid-area: photo;
+    margin: 0 auto;
+  }
+
+  .header .title {
+    grid-area: title;
+    text-align: start;
+    max-width: 200px;
+  }
+
+  .header .info {
+    grid-area: info;
+  }
+}
