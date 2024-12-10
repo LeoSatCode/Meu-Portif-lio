@@ -1,7 +1,7 @@
 
 
-async function fetchProfileDate() {
-    const url = 'https://raw.githubusercontent.com/LeoSatCode/Meu-Portif-lio/refs/heads/main/data/profile.json?token=GHSAT0AAAAAAC2VKTZNFNI5IWGZ2USTSKYAZ2YOK3A'
+async function fetchProfileData() {
+    const url = 'https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/refs/heads/projeto-base/data/profile.json'
     const fetching = await fetch(url)
     return await fetching.json()
 }

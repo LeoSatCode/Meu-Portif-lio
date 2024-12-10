@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+#profile-name{
+  font-family: 'Neue machina';
+}
+
 .information {
   display: flex;
   flex-direction: column;

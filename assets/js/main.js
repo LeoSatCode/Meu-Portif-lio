@@ -1,11 +1,37 @@
+
 function updateProfile(profileData) {
-    const photo = document.getElementById('profile-photo')
+    const photo = document.getElementsByClassName('photo')
     photo.src = profileData.photo
+
+    const name = document.getElementById('profile-name')
+    name.innerText = profileData.name
+
+    const job = document.getElementById('profile.job')
+    job.innerText = profileData.job
+
+    const location = document.getElementById('profile.location')
+    location.innerText = profileData.location
+
+    const phone = document.getElementById('profile.phone')
+    phone.innerText = profileData.phone
+    phone.href = `tel:${profileData.phone}`
+
+    const email= document.getElementById('profile.email')
+    email.innerText = profileData.email
+    email.href = `mailto:${profileData.phone}`
+
     
 }
 
+function updateSoftSkills(profileData) {
+    const softSkills = document.getElementById('profile-skills-softskills')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+
+
 (async () => {
-        const profileData = await fetchProfileDate()
+        const profileData = await fetchProfileData()
         updateProfile(profileData)
+        updateSoftSkills(profileData)
   
 })()

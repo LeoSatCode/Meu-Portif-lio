@@ -19,20 +19,24 @@
     max-height: 50px;
     margin: 0 .5rem;
 }
+.personal h3 {
+    margin: 1.5rem 8rem;
+}
 
 .skills .personal ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem; 
+    list-style-type: disc;
+    padding-right: 4rem;
+   
 }
 
 .skills .personal ul li {
-    margin-left: 2rem;
+    margin-left: 0;
     padding: .5rem;
+    list-style-position: inside;
+    white-space: nowrap; 
 }
 
 @media only screen and (min-width: 768px) {
