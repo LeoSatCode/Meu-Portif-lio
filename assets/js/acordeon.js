@@ -13,5 +13,3 @@ Array.prototype.forEach.call(acordTrigger, (trigger) => {
         }
     });
 });
-
-

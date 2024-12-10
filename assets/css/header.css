@@ -15,8 +15,7 @@
   height: 2rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("/assets/icons/header.svg");
-  
+  background-image: url('/assets/icons/header.svg');
 }
 
 .header .photo {
@@ -26,79 +25,72 @@
 }
 
 .header .title {
+  font-family: 'Neue Machina';
   text-align: center;
-  font-family: "Neue Machina";
 }
 
-.info {
+.information {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
 }
 
-.info p {
+.information p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0.5rem;
-  font-size: 1.25rem;
+  margin: .5rem;
+  font-size: 1.125rem;
 }
 
-.info p::before {
+.information p::before {
   content: '';
   display: inline-block;
   width: 1rem;
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 0.5rem;
+  margin-right: .5rem;
 }
 
-.info .job::before {
-  background-image: url("/assets/icons/ppl.svg");
-  width: 1rem;
-  height: 1rem;
+.information .job::before {
+  background-image: url('/assets/icons/ppl.svg');
 }
 
-.info .location::before {
-  background-image: url("/assets/icons/pin.svg");
-  width: 1rem;
-  height: 1rem;
+.information .location::before {
+  background-image: url('/assets/icons/pin.svg');
 }
 
-.info .contact::before {
-  background-image: url("/assets/icons/chat.svg");
-  width: 1rem;
-  height: 1rem;
+.information .email::before {
+  background-image: url('/assets/icons/mail.svg');
 }
 
-.info .mail::before {
-  background-image: url("/assets/icons/mail.svg");
-  width: 1rem;
-  height: 1rem;
+.information .phone::before {
+  background-image: url('/assets/icons/chat.svg');
 }
 
 @media only screen and (min-width: 768px) {
   .header {
-    display: grid;
-    grid-template-areas: 
-      "photo title"
-      "photo info";
+      display: grid;
+      grid-template-areas:
+          "photo title"
+          "photo information"
+      ;
   }
 
   .header .photo {
-    grid-area: photo;
-    margin: 0 auto;
+      grid-area: photo;
+      margin: 0 auto;
   }
 
   .header .title {
-    grid-area: title;
-    text-align: start;
-    max-width: 200px;
+      grid-area: title;
+      text-align: start;
+      max-width: 210px;
   }
 
-  .header .info {
-    grid-area: info;
+  .header .information {
+      grid-area: information;
   }
 }

@@ -34,7 +34,6 @@
     background-size: contain;
     background-image: url('/assets/icons/github.svg');
     margin-right: .5rem;
-    /* Força o tamanho do ícone */
     min-width: 1rem;
     min-height: 1rem;
   }
@@ -49,4 +48,3 @@
     color: white;
     text-decoration: underline;
   }
-  

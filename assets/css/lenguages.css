@@ -1,16 +1,14 @@
-.lenguages {
-
+.languages {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.lenguages li {
+.languages li {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,13 +16,13 @@
     font-weight: 700;
 }
 
-.lenguages li::before {
+.languages li::before {
     content: "";
     display: inline-block;
     width: 1rem;
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/icons/check.svg);
+    background-image: url('/assets/icons/check.svg');
     margin-right: .5rem;
 }
