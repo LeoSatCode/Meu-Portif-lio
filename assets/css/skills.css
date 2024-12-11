@@ -4,6 +4,26 @@
 }
 
 .skills .tools ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, .25fr));
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.skills .tools ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.skills .tools ul img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.skills .personal ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -11,32 +31,11 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    list-style: none;
-}
-
-.skills .tools ul img {
-    max-width: 50px;
-    max-height: 50px;
-    margin: 0 .5rem;
-}
-.personal h3 {
-    margin: 1.5rem 8rem;
-}
-
-.skills .personal ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: .5rem; 
-    list-style-type: disc;
-    padding-right: 4rem;
-   
 }
 
 .skills .personal ul li {
-    margin-left: 0;
+    margin-left: 2rem;
     padding: .5rem;
-    list-style-position: inside;
-    white-space: nowrap; 
 }
 
 @media only screen and (min-width: 768px) {
