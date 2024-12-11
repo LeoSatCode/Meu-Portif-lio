@@ -59,19 +59,19 @@
 }
 
 .information .job::before {
-  background-image: url('/..//icons/ppl.svg');
+  background-image: url('../icons/ppl.svg');
 }
 
 .information .location::before {
-  background-image: url('/..//icons/pin.svg');
+  background-image: url('../icons/pin.svg');
 }
 
 .information .email::before {
-  background-image: url('/..//icons/mail.svg');
+  background-image: url('../icons/mail.svg');
 }
 
 .information .phone::before {
-  background-image: url('/..//icons/chat.svg');
+  background-image: url('../icons/chat.svg');
 }
 
 @media only screen and (min-width: 768px) {
