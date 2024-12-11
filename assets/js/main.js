@@ -38,6 +38,18 @@ function updateLenguages(profileData) {
     lenguages.innerHTML = profileData.lenguages.map(leng => `<li>${leng}</li>`).join('')
 }
 
+
+function updateEducation(profileData) {
+    const achievs = document.getElementById('profile-education-achievs');
+    achievs.innerHTML = profileData.education.achievs.map(achiev => {
+        return `<li><img src="${achiev.logo}" alt="${achiev.name}" title="${achiev.name}"></li>`;
+    }).join('');
+
+    const educationMe = document.getElementById('profile-education-me');
+    educationMe.innerHTML = profileData.education.me.map(item => `<li>${item}</li>`).join('');
+}
+
+
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(port => {
@@ -76,7 +88,9 @@ function updateExperience(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLenguages(profileData)
+    updateEducation(profileData)
     updatePortfolio(profileData)
     updateExperience(profileData)
-
 })()
+
+
