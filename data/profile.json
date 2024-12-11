@@ -1,6 +1,5 @@
 {
   "name": "Leonardo H Saturnino",
-  "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFVe2MDJNalAQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730489250524?e=1739404800&v=beta&t=xz4vz2MND4R1ZL60vxHVLxALPQVuQTdTtrNVQrcmOPo",
   "job": "Junior Developer",
   "location": "Bariri-SP",
   "phone": "(14) 99847-2307",
@@ -8,119 +7,80 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
-        "logo": "TODO"
+        "name": "HTML5",
+        "logo": "https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/refs/heads/main/data/imgs/html.png"
       },
       {
-        "nome": "Java",
-        "logo": "TODO"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/refs/heads/main/data/imgs/js.png"
       },
       {
-        "nome": "Kotlin",
-        "logo": "TODO"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/refs/heads/main/data/imgs/css.png"
+      },
+      {
+        "name": "Github",
+        "logo": "https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/refs/heads/main/data/imgs/github.png"
       }
     ],
     "softSkills": [
+      "Comprometimento",
+      "Trabalho em Equipe",
       "Comunicação",
-      "Empatia",
-      "Poder de Sedução Imcomparável"
+      "Flexibilidade"
     ]
   },
-  "idiomas": [
-    {
-      "nome": "Português",
-      "nivel": "Nativo"
-    },
-    {
-      "nome": "Inglês",
-      "nivel": "Intermediário"
-    },
-    {
-      "nome": "Espanhol",
-      "nivel": "Básico"
-    }
-  ],
-  "educacao": [
-    {
-      "nome": "dio.me",
-      "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "2019",
-        "fim": "Atualmente"
-      },
-      "certificados": [
-        {
-          "nome": "Formação: Blockchain Specialist (25h)",
-          "link": "https://www.dio.me/certificate/28601B02"
-        },
-        {
-          "nome": "Curso: Desenvolvimento Mobile Nativo Para Android",
-          "link": "https://www.dio.me/certificate/07041B99"
-        },
-        {
-          "nome": "Curso: Componentes, Layouts e UI/UX Em Apps Android",
-          "link": "https://www.dio.me/certificate/F12AC30B"
-        },
-        {
-          "nome": "Curso: Java e Kotlin Juntos!? Construindo Apps Android",
-          "link": "https://www.dio.me/certificate/3FB20BF1"
-        },
-        {
-          "nome": "Curso: Explorando o Firebase Para Apps Android Resiliente",
-          "link": "https://www.dio.me/certificate/BA099F34"
-        }
-      ]
-    },
-    {
-      "nome": "Doutorado em Engenharia de Software",
-      "descricao": "Uma Infraestrutura de Apoio ao Ensino e Aprendizagem de Línguas de Sinais",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2018",
-        "fim": "Atualmente"
-      }
-    },
-    {
-      "nome": "Mestrado em Engenharia de Software",
-      "descricao": "Estudo e Definição de Uma Linha de Produtos de Software Para o Desenvolvimento de Aplicações Educacionais Moveis",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2012",
-        "fim": "2015"
-      }
-    },
-    {
-      "nome": "Bacharelado em Engenharia de Computação",
-      "descricao": "",
-      "instituicao": "Universidade de Araraquara (UNIARA)",
-      "periodo": {
-        "inicio": "2007",
-        "fim": "2011"
-      }
-    }
+  "lenguages": [
+    "Português-BR (Nativo)",
+    "Inglês (Avançado)",
+    "Espanhol (Básico)"
   ],
   "portfolio": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "name": "Desenvolvendo um jogo 2D com JavaScript",
+      "url": "https://github.com/LeoSatCode/Game",
+      "git": true
     },
     {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "name": "Minha Pokedex",
+      "url": "https://github.com/LeoSatCode/POKEDEX",
+      "git": true
     }
   ],
-  "experiencias": [
-    {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
+  "education": {
+    "achievs": [
+      {
+        "name": "Front-End",
+        "logo": "https://assets.dio.me/sKxof4Zr0fqRWNSxKc0gHnJJyKh9bPCXz23cPROImEc/f:webp/q:80/w:120/L2NvdXJzZXMvYmFkZ2UvYjk0MzY2ODEtMWZjZS00YWU1LTgyOTMtYjBjYzY5MDNiOWY1LnBuZw"
+      },
+      {
+        "name": "Code Challenge",
+        "logo": "https://assets.dio.me/voHxR2RrrxnfhiTFtNI8M-MI_6bTNYdgKxjupAGQzlw/f:webp/q:80/w:120/L2NvZGVfY2hhbGxlbmdlL2JhZGdlL2IyN2JlMTAyLTBkMGQtNGQzOS04YjVkLTAyMjZjMzg3MGZiYS5wbmc"
+      },
+      {
+        "name": "JavaScript Developer",
+        "logo": "https://assets.dio.me/_ImeVq2qMIfyFkoYC-epZ9o-1X9soGtq69WUykqhiL4/f:webp/h:120/q:80/L3RyYWNrcy81NWU3MDQwZi03NzViLTQ3ZTUtYThmYi02OWQwMDJjYTE3YTkucG5n"
       }
+    ],
+    "me": [
+      "Web Development! All I need to know in one place"
+    ]
+  },
+  "experience": [
+    {
+      "name": "Curso de Desenvolvimento Front-End pela DIO",
+      "period": "Out 2024 - Dez 2024",
+      "description": "Curso abrangendo HTML, CSS e JavaScript, com grande foco em consumo de API's."
+    },
+    {
+      "name": "Desevolvimento de Meu Portfolio Pessoal",
+      "period": "Nov 2024 - Dez 2024",
+      "description": "Desenvolvido em conjunto com a DIO, esse portfolio possui toques pessoais para melhor experiência ao usuário."
+    },
+    {
+      "name": "Jogo 2D com JavaScript",
+      "period": "Nov 2024 - Atualmente",
+      "description": "Desenvolvendo um RPG 2D em JavaScript, para fixar meu aprendizado até aqui. O projeto inclusive está em fase avançada e pode ser acessado através de meu GitHub"
     }
   ]
 }
