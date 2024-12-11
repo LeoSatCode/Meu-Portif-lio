@@ -41,4 +41,28 @@ Clone este repositório:
 
 ```bash
 git clone https://github.com/LeoSatCode/Meu-Portif-lio.git
+```
+Navegue até o diretório do projeto:
+```bash
+cd Meu-Portif-lio
+```
+Instale as dependências (se precisar):
+```bash
+npm install
+```
+ou
+```bash
+yarn install
+```
+Execute o projeto:
+Se você tiver um servidor local configurado, por exemplo, usando um pacote como live-server ou http-server
+```bash
+live-server
+```
+ou
+```bash
+npx http-server
+```
+
+
 
