@@ -8,10 +8,10 @@ Este é o meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript. Nele, 
 
 ## Tecnologias
 
-<img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/html.png" alt="HTML5" width="90px">
-<img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/js.png" alt="JavaScript" width="90px">
-<img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/css.png" alt="CSS" width="90px">
-<img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/github.png" alt="GitHub" width="90px">
+<img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/html.png" alt="HTML5" width="90px">    <img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/js.png" alt="JavaScript" width="90px">
+
+<img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/css.png" alt="CSS" width="90px">       <img src="https://raw.githubusercontent.com/LeoSatCode/js-developer-portfolio/main/data/imgs/github.png" alt="GitHub" width="90px">
+
 
 ## Como Usar
 
