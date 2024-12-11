@@ -1,4 +1,4 @@
-.experience {
+.exp {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -6,17 +6,17 @@
     list-style: none;
 }
 
-.experience li {
+.exp li {
     margin-bottom: 1rem;
 }
 
-.experience li .period {
+.exp li .period {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.experience li .period::before {
+.exp li .period::before {
     content: "";
     display: inline-block;
     width: 1rem;
